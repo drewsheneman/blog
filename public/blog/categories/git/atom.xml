@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: git | Drew Sheneman - Software Developer]]></title>
+  <link href="http://blog.drewsheneman.com/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://blog.drewsheneman.com/"/>
+  <updated>2014-09-21T15:58:51-04:00</updated>
+  <id>http://blog.drewsheneman.com/</id>
+  <author>
+    <name><![CDATA[Drew Sheneman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Learn Git Commands]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/25/learn-git-commands/"/>
+    <updated>2013-06-25T07:45:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/25/learn-git-commands</id>
+    <content type="html"><![CDATA[<p>A fun way to learn Git commands: <a href="http://pcottle.github.io/learnGitBranching/" target="_blank">pcottle.github.io/learnGitBranching/</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git Tools in RubyMine]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/17/git-tools-in-rubymine/"/>
+    <updated>2013-06-17T11:00:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/17/git-tools-in-rubymine</id>
+    <content type="html"><![CDATA[<p>While I will probably always prefer the command line for git commands over any GUI interface, here is a solid introduction to using the tools that RubyMine provides to make version control more convenient:</p>
+
+<p><a href="http://pivotallabs.com/everyday-git-commands-in-rubymine/" target="_blank">pivotallabs.com/everyday-git-commands-in-rubymine/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Monitor status of GitHub services]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/05/30/monitor-status-of-github-services/"/>
+    <updated>2013-05-30T13:46:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/05/30/monitor-status-of-github-services</id>
+    <content type="html"><![CDATA[<p>GitHub is down, causing an internet-wide questioning of the meaning of life and <a href="https://twitter.com/search?q=github%20down&src=typd" target="_blank">existential ponderings</a>. Perhaps it is time to discover that thing called &lsquo;outdoors&rsquo; everyone seems to talk about. Alternatively, one could go to <a href="https://status.github.com/" target="_blank">status.github.com/</a> and press F5 repeatedly until all is right with the world.</p>
+]]></content>
+  </entry>
+  
+</feed>

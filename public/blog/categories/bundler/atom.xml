@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: bundler | Drew Sheneman - Software Developer]]></title>
+  <link href="http://blog.drewsheneman.com/blog/categories/bundler/atom.xml" rel="self"/>
+  <link href="http://blog.drewsheneman.com/"/>
+  <updated>2014-09-21T15:58:51-04:00</updated>
+  <id>http://blog.drewsheneman.com/</id>
+  <author>
+    <name><![CDATA[Drew Sheneman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vulnerabilities in Gems]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/11/vulnerabilities-in-gems/"/>
+    <updated>2013-06-11T08:07:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/11/vulnerabilities-in-gems</id>
+    <content type="html"><![CDATA[<p>What would happen if you installed a gem that was either malicious, or contained vulnerabilities? This is a great post on
+<a href="https://discuss.gemnasium.com/t/being-paranoid-with-ruby-gems/28" target="_blank">being paranoid with ruby gems</a>, and bundler.</p>
+]]></content>
+  </entry>
+  
+</feed>

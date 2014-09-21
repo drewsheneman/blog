@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby-on-rails | Drew Sheneman - Software Developer]]></title>
+  <link href="http://blog.drewsheneman.com/blog/categories/ruby-on-rails/atom.xml" rel="self"/>
+  <link href="http://blog.drewsheneman.com/"/>
+  <updated>2014-09-21T15:58:51-04:00</updated>
+  <id>http://blog.drewsheneman.com/</id>
+  <author>
+    <name><![CDATA[Drew Sheneman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Number One Trait of a Great Developer]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/09/04/number-one-trait-of-a-great-developer/"/>
+    <updated>2013-09-04T09:12:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/09/04/number-one-trait-of-a-great-developer</id>
+    <content type="html"><![CDATA[<p>Great post by Tammer Saleh on the Number One Trait of a Great Developer: <a href="http://tammersaleh.com/posts/the-number-one-trait-of-a-great-developer/" target="_blank">tammersaleh.com/posts/the-number-one-trait-of-a-great-developer/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rails Hotline]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/08/26/rails-hotline/"/>
+    <updated>2013-08-26T08:51:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/08/26/rails-hotline</id>
+    <content type="html"><![CDATA[<p>Free phone support for your Rails application: <a href="http://rails.pockethotline.com/" target="_blank">rails.pockethotline.com/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Future of Ruby]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/07/06/the-future-of-ruby/"/>
+    <updated>2013-07-06T10:48:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/07/06/the-future-of-ruby</id>
+    <content type="html"><![CDATA[<p>Great post on the future of Ruby:</p>
+
+<p><a href="http://blog.lightcastletech.com/2013/07/06/the-future-of-ruby-rubynation-2013/" target="_blank">blog.lightcastletech.com/2013/07/06/the-future-of-ruby-rubynation-2013//</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Extending Rails Environments]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/13/extending-rails-environments/"/>
+    <updated>2013-06-13T10:02:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/13/extending-rails-environments</id>
+    <content type="html"><![CDATA[<p>David Heinemeier Hansson describes the process of configuring additional environments in Rails:</p>
+
+<p><a href="http://37signals.com/svn/posts/3535-beyond-the-default-rails-environments" target="_blank">37signals.com/svn/posts/3535-beyond-the-default-rails-environments</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Debugging in Ruby 2.0]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/03/debugging-in-ruby-2-dot-0/"/>
+    <updated>2013-06-03T13:55:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/03/debugging-in-ruby-2-dot-0</id>
+    <content type="html"><![CDATA[<p>When trying to debug Rails applications that have been updated to use Ruby 2.0, you may run across some errors either via &lsquo;bundle update&rsquo; or when trying to migrate the database. To resolve these and enable debugging, replace the ruby-debug-base19x gem with &lsquo;debase&rsquo;.</p>
+
+<pre><code>group :development, :test do
+  gem 'debase'
+  gem 'ruby-debug-ide', '0.4.17'
+end
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

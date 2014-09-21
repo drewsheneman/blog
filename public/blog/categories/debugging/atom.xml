@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: debugging | Drew Sheneman - Software Developer]]></title>
+  <link href="http://blog.drewsheneman.com/blog/categories/debugging/atom.xml" rel="self"/>
+  <link href="http://blog.drewsheneman.com/"/>
+  <updated>2014-09-21T15:58:51-04:00</updated>
+  <id>http://blog.drewsheneman.com/</id>
+  <author>
+    <name><![CDATA[Drew Sheneman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Debugging in Ruby 2.0]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/03/debugging-in-ruby-2-dot-0/"/>
+    <updated>2013-06-03T13:55:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/03/debugging-in-ruby-2-dot-0</id>
+    <content type="html"><![CDATA[<p>When trying to debug Rails applications that have been updated to use Ruby 2.0, you may run across some errors either via &lsquo;bundle update&rsquo; or when trying to migrate the database. To resolve these and enable debugging, replace the ruby-debug-base19x gem with &lsquo;debase&rsquo;.</p>
+
+<pre><code>group :development, :test do
+  gem 'debase'
+  gem 'ruby-debug-ide', '0.4.17'
+end
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

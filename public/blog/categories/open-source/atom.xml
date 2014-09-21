@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: open-source | Drew Sheneman - Software Developer]]></title>
+  <link href="http://blog.drewsheneman.com/blog/categories/open-source/atom.xml" rel="self"/>
+  <link href="http://blog.drewsheneman.com/"/>
+  <updated>2014-09-21T15:58:51-04:00</updated>
+  <id>http://blog.drewsheneman.com/</id>
+  <author>
+    <name><![CDATA[Drew Sheneman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[WikiHouse - Open Source Architecture]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/05/24/wikihouse-open-source-architecture/"/>
+    <updated>2013-05-24T12:47:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/05/24/wikihouse-open-source-architecture</id>
+    <content type="html"><![CDATA[<p>WikiHouse is Architecture patterned after the principles of open source software: <a href="http://www.wikihouse.cc/" target="_blank">wikihouse.cc/</a></p>
+
+<p>For the <a href="http://www.ted.com/talks/alastair_parvin_architecture_for_the_people_by_the_people.html" target="_blank">TED talk</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

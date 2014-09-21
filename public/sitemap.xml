@@ -2,17 +2,192 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/09/04/number-one-trait-of-a-great-developer/</loc>
+    
+    <lastmod>2013-09-04T09:12:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
   
   <url>
-    <loc>http://yoursite.com/</loc>
-    <lastmod>2014-09-21T15:39:06-04:00</lastmod>
+    <loc>http://blog.drewsheneman.com/blog/2013/08/26/rails-hotline/</loc>
+    
+    <lastmod>2013-08-26T08:51:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/07/29/ruby-warrior/</loc>
+    
+    <lastmod>2013-07-29T07:33:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/07/08/how-agile-affects-introverts/</loc>
+    
+    <lastmod>2013-07-08T12:22:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/07/06/the-future-of-ruby/</loc>
+    
+    <lastmod>2013-07-06T10:48:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/06/26/tests-for-servers/</loc>
+    
+    <lastmod>2013-06-26T11:17:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/06/25/learn-git-commands/</loc>
+    
+    <lastmod>2013-06-25T07:45:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/06/17/git-tools-in-rubymine/</loc>
+    
+    <lastmod>2013-06-17T11:00:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/06/13/extending-rails-environments/</loc>
+    
+    <lastmod>2013-06-13T10:02:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/06/12/downsides-of-pair-programming/</loc>
+    
+    <lastmod>2013-06-12T07:44:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/06/11/vulnerabilities-in-gems/</loc>
+    
+    <lastmod>2013-06-11T08:07:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/06/08/the-value-of-information-privacy/</loc>
+    
+    <lastmod>2013-06-08T12:13:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/06/03/debugging-in-ruby-2-dot-0/</loc>
+    
+    <lastmod>2013-06-03T13:55:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/06/01/rails-tutorial-rails-4-style/</loc>
+    
+    <lastmod>2013-06-01T11:46:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/05/31/my-journey-upgrading-to-rails-4/</loc>
+    
+    <lastmod>2013-05-31T16:14:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/05/30/monitor-status-of-github-services/</loc>
+    
+    <lastmod>2013-05-30T13:46:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/05/28/vim-adventures/</loc>
+    
+    <lastmod>2013-05-28T14:02:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/05/28/summer-of-design/</loc>
+    
+    <lastmod>2013-05-28T08:06:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/05/28/git-1-8-2-release/</loc>
+    
+    <lastmod>2013-05-28T08:01:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/05/24/wikihouse-open-source-architecture/</loc>
+    
+    <lastmod>2013-05-24T12:47:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/blog/2013/05/23/first-post-up-and-running-with-octopress/</loc>
+    
+    <lastmod>2013-05-23T13:55:00-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/</loc>
+    <lastmod>2014-09-21T15:58:51-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/blog/archives/</loc>
-    <lastmod>2014-09-21T15:39:06-04:00</lastmod>
+    <loc>http://blog.drewsheneman.com/blog/archives/</loc>
+    <lastmod>2014-09-21T15:58:51-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.drewsheneman.com/about/</loc>
+    <lastmod>2014-09-21T15:58:51-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

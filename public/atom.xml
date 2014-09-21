@@ -1,16 +1,277 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2014-09-21T15:39:06-04:00</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[Drew Sheneman - Software Developer]]></title>
+  <link href="http://blog.drewsheneman.com/atom.xml" rel="self"/>
+  <link href="http://blog.drewsheneman.com/"/>
+  <updated>2014-09-21T15:58:51-04:00</updated>
+  <id>http://blog.drewsheneman.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Drew Sheneman]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Number One Trait of a Great Developer]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/09/04/number-one-trait-of-a-great-developer/"/>
+    <updated>2013-09-04T09:12:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/09/04/number-one-trait-of-a-great-developer</id>
+    <content type="html"><![CDATA[<p>Great post by Tammer Saleh on the Number One Trait of a Great Developer: <a href="http://tammersaleh.com/posts/the-number-one-trait-of-a-great-developer/" target="_blank">tammersaleh.com/posts/the-number-one-trait-of-a-great-developer/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rails Hotline]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/08/26/rails-hotline/"/>
+    <updated>2013-08-26T08:51:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/08/26/rails-hotline</id>
+    <content type="html"><![CDATA[<p>Free phone support for your Rails application: <a href="http://rails.pockethotline.com/" target="_blank">rails.pockethotline.com/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Warrior]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/07/29/ruby-warrior/"/>
+    <updated>2013-07-29T07:33:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/07/29/ruby-warrior</id>
+    <content type="html"><![CDATA[<p>&lsquo;A triumphant quest of adventure, love &amp; destiny all within a few lines of code&rsquo; &hellip; also an excellent way to learn and get better with Ruby:</p>
+
+<p><a href="https://www.bloc.io/ruby-warrior/#/" target="_blank"><a href="https://www.bloc.io/ruby-warrior/#/">https://www.bloc.io/ruby-warrior/#/</a></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How Agile affects Introverts]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/07/08/how-agile-affects-introverts/"/>
+    <updated>2013-07-08T12:22:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/07/08/how-agile-affects-introverts</id>
+    <content type="html"><![CDATA[<p>Examining Agile methodologies from the perspectives of Introverts:</p>
+
+<p><a href="http://blog.founddrama.net/2012/08/agile-for-the-introvert/" target="_blank">blog.founddrama.net/2012/08/agile-for-the-introvert/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Future of Ruby]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/07/06/the-future-of-ruby/"/>
+    <updated>2013-07-06T10:48:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/07/06/the-future-of-ruby</id>
+    <content type="html"><![CDATA[<p>Great post on the future of Ruby:</p>
+
+<p><a href="http://blog.lightcastletech.com/2013/07/06/the-future-of-ruby-rubynation-2013/" target="_blank">blog.lightcastletech.com/2013/07/06/the-future-of-ruby-rubynation-2013//</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tests for servers]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/26/tests-for-servers/"/>
+    <updated>2013-06-26T11:17:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/26/tests-for-servers</id>
+    <content type="html"><![CDATA[<p>Rspec tests for server configurations:</p>
+
+<p><a href="http://serverspec.org/" target="_blank">serverspec.org/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learn Git Commands]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/25/learn-git-commands/"/>
+    <updated>2013-06-25T07:45:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/25/learn-git-commands</id>
+    <content type="html"><![CDATA[<p>A fun way to learn Git commands: <a href="http://pcottle.github.io/learnGitBranching/" target="_blank">pcottle.github.io/learnGitBranching/</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git Tools in RubyMine]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/17/git-tools-in-rubymine/"/>
+    <updated>2013-06-17T11:00:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/17/git-tools-in-rubymine</id>
+    <content type="html"><![CDATA[<p>While I will probably always prefer the command line for git commands over any GUI interface, here is a solid introduction to using the tools that RubyMine provides to make version control more convenient:</p>
+
+<p><a href="http://pivotallabs.com/everyday-git-commands-in-rubymine/" target="_blank">pivotallabs.com/everyday-git-commands-in-rubymine/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Extending Rails Environments]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/13/extending-rails-environments/"/>
+    <updated>2013-06-13T10:02:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/13/extending-rails-environments</id>
+    <content type="html"><![CDATA[<p>David Heinemeier Hansson describes the process of configuring additional environments in Rails:</p>
+
+<p><a href="http://37signals.com/svn/posts/3535-beyond-the-default-rails-environments" target="_blank">37signals.com/svn/posts/3535-beyond-the-default-rails-environments</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Downsides of Pair Programming]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/12/downsides-of-pair-programming/"/>
+    <updated>2013-06-12T07:44:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/12/downsides-of-pair-programming</id>
+    <content type="html"><![CDATA[<p>An interesting perspective on an <a href="http://www.bennorthrop.com/Essays/2013/pair-programming-my-personal-nightmare.php" target="_blank">alternative view to pair programming</a>, and scenarios where it may or may not be the best option.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vulnerabilities in Gems]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/11/vulnerabilities-in-gems/"/>
+    <updated>2013-06-11T08:07:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/11/vulnerabilities-in-gems</id>
+    <content type="html"><![CDATA[<p>What would happen if you installed a gem that was either malicious, or contained vulnerabilities? This is a great post on
+<a href="https://discuss.gemnasium.com/t/being-paranoid-with-ruby-gems/28" target="_blank">being paranoid with ruby gems</a>, and bundler.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Value of Information Privacy]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/08/the-value-of-information-privacy/"/>
+    <updated>2013-06-08T12:13:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/08/the-value-of-information-privacy</id>
+    <content type="html"><![CDATA[<p>There is now a myriad of sources and new information being published at a dizzying rate related to the &lsquo;secret&rsquo; government program:
+<a href="http://www.washingtonpost.com/investigations/us-intelligence-mining-data-from-nine-us-internet-companies-in-broad-secret-program/2013/06/06/3a0c0da8-cebf-11e2-8845-d970ccb04497_story.html" target="_blank">PRISM</a>. I swear I&rsquo;ve seen this in a movie before. It is being reported that the NSA has been pulling in data from <a href="http://theweek.com/article/index/245311/sources-nsa-sucks-in-data-from-50-companies" target="_blank">at least 50 companies</a>.</p>
+
+<p>On subjects like these, it is easy for one to feel powerless. It&rsquo;s hard to know which reports are accurate, and if they turn out to be accurate, what action does one take given the new information?
+<br/></p>
+
+<h2>Quick thoughts:</h2>
+
+<p><strong>CNN recently proposed </strong><a href="http://money.cnn.com/2013/06/07/technology/security/nsa-data-prism/index.html" target="_blank">scenarios</a> of who had knowledge &lsquo;if&rsquo; the program existed. I personally find it very hard to believe the theory that said companies had no knowledge of information being aquired from their servers. These are massive companies, who, in areas such as software engineering and managing big data are generally hiring those who are the best (or close to the best) at what they do. If it were that easy to aquire some data, everyone would be dropping by for take-out orders.
+<br/>
+<strong>Our View of Information</strong> I have been beating the private information drum in personal conversations for years. With the rise of social media sites, there has been a shift in the way people generally view personal information. Now we voluntarily post our information, for the world to see. Often times this includes our physical location, on the globe. In reality I think the vast majority of people have no idea where and when that information exchanges hands. This is changing, however.
+<br/>
+<strong>Take a moment and do this exercise, just from memory:</strong> Try to think of every website that is housing your credit card information in their database, right now. How much of your Facebook profile is shared, vs. friends only, or private? None of this is bad, as long as it is what you choose to do. Issues arise when things are done with our data that we did not choose. However, do you know if you chose it or not? How many of us actually read the fine print? In 2005, a <a href=" http://techtalk.pcpitstop.com/2012/06/12/it-pays-to-read-license-agreements-7-years-later/" target="_blank">software company offered a $1000 prize</a> to anyone who simply read their End-User License Agreement (EULA). It took <strong>five months</strong> for the prize to be awarded.<br/></p>
+
+<h2>Conclusion:</h2>
+
+<p><strong>I am not saying</strong> any of these things are directly related to PRISM. But people taking action to have better guidelines in place is what it will take for things to change, whether it&rsquo;s in the form of votes, or some other method. On the other hand, you could also go ahead and <a href=" http://www.theregister.co.uk/2013/06/08/what_about_a_us_tech_boycott/" target="_blank">boycott the entire US cloud tech</a> &hellip;
+<br/>
+I don&rsquo;t think I am quite leaping off that ledge &hellip; yet.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Debugging in Ruby 2.0]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/03/debugging-in-ruby-2-dot-0/"/>
+    <updated>2013-06-03T13:55:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/03/debugging-in-ruby-2-dot-0</id>
+    <content type="html"><![CDATA[<p>When trying to debug Rails applications that have been updated to use Ruby 2.0, you may run across some errors either via &lsquo;bundle update&rsquo; or when trying to migrate the database. To resolve these and enable debugging, replace the ruby-debug-base19x gem with &lsquo;debase&rsquo;.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>group :development, :test do
+</span><span class='line'>  gem 'debase'
+</span><span class='line'>  gem 'ruby-debug-ide', '0.4.17'
+</span><span class='line'>end</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rails Tutorial - Rails 4 style]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/01/rails-tutorial-rails-4-style/"/>
+    <updated>2013-06-01T11:46:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/01/rails-tutorial-rails-4-style</id>
+    <content type="html"><![CDATA[<p>For initially learning Ruby on Rails many prefer <a href="http://ruby.railstutorial.org" target="_blank">Rails Tutorial</a>, by Michael Hartl, which is available in full from his website, with great accompanying videos for purchase as well.</p>
+
+<p>As an update, if you are interested in diving head first into Rails 4, I noticed there is now a <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=4.0" target="_blank">Rails 4 Edition</a>. It also includes great updates to other techniques, such as in rspec replacing <a href="http://myronmars.to/n/dev-blog/2012/06/rspecs-new-expectation-syntax" target="_blank">&lsquo;should&rsquo; with &lsquo;expect&rsquo;</a>, etc.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Journey Upgrading to Rails 4]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/05/31/my-journey-upgrading-to-rails-4/"/>
+    <updated>2013-05-31T16:14:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/05/31/my-journey-upgrading-to-rails-4</id>
+    <content type="html"><![CDATA[<p>Upgrading to Rails 4 in an existing application can be quite a switch. I decided to make the jump and handle any complications as they come. After about an hour or so I was mostly up and running, with a few issues here and there with gems I am using and their various versions.</p>
+
+<h2>Resources</h2>
+
+<p>As is often the case, the <a href="http://railscasts.com/episodes/415-upgrading-to-rails-4" target="_blank">Railscast</a> on the subject proved invaluable. There is also a robust compilation of Rails 4 links being maintained <a href="http://blog.wyeworks.com/2012/11/13/rails-4-compilation-links/" target="_blank">here</a>.</p>
+
+<h2>RubyMine</h2>
+
+<p>If you use RubyMine, you may run across an error when trying to start your development server.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Error running Development: Rails 3.x launcher script was found instead of Rails 4.x one.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When a new Rails 4 application is created, it generates a &lsquo;bin&rsquo; folder. Creating a new, blank Rails 4 application and copying its &lsquo;bin&rsquo; folder into the existing project will resolve the error and allow the server to be started in RubyMine.</p>
+
+<h2>Gems</h2>
+
+<p>One gem that gave me a few errors was simple form. I updated my Gemfile to:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem 'simple_form', '~&gt; 3.0.0.rc'</span></code></pre></td></tr></table></div></figure>
+
+
+<p>However, when loading my forms in the browser, I received another error:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>wrong number of arguments (3 for 2)</span></code></pre></td></tr></table></div></figure>
+
+
+<p>After doing some digging I found that this was actually related to the client_side_validations gem, which I was no longer using and safely removed this from the project. If you need this gem, there is a <a href="https://github.com/bcardarella/client_side_validations/tree/rails-4.0-quick-fixes" target="_blank">branch</a> for Rails 4 which should help.</p>
+
+<p>Looking forward to implementing the great additions in Rails 4.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Monitor status of GitHub services]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/05/30/monitor-status-of-github-services/"/>
+    <updated>2013-05-30T13:46:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/05/30/monitor-status-of-github-services</id>
+    <content type="html"><![CDATA[<p>GitHub is down, causing an internet-wide questioning of the meaning of life and <a href="https://twitter.com/search?q=github%20down&src=typd" target="_blank">existential ponderings</a>. Perhaps it is time to discover that thing called &lsquo;outdoors&rsquo; everyone seems to talk about. Alternatively, one could go to <a href="https://status.github.com/" target="_blank">status.github.com/</a> and press F5 repeatedly until all is right with the world.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Adventures]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/05/28/vim-adventures/"/>
+    <updated>2013-05-28T14:02:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/05/28/vim-adventures</id>
+    <content type="html"><![CDATA[<p>Need a fun, creative way to learn <a href="http://www.vim.org/" target="_blank">vim</a>? There&rsquo;s a <a href="http://vim-adventures.com/" target="_blank">game</a> for that.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Summer of Design]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/05/28/summer-of-design/"/>
+    <updated>2013-05-28T08:06:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/05/28/summer-of-design</id>
+    <content type="html"><![CDATA[<p>Just signed up for the free online course &ldquo;Summer of Design&rdquo; based around the principles of design. It is led by David Kadavy, author of <a href="http://designforhackers.com/book/" target="_blank">Design for Hackers</a>.</p>
+
+<p><a href="http://summerofdesign.com/" target="_blank">summerofdesign.com/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What's new in Git 1.8.2]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/05/28/git-1-8-2-release/"/>
+    <updated>2013-05-28T08:01:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/05/28/git-1-8-2-release</id>
+    <content type="html"><![CDATA[<p>Here is a good read on the new features in the latest git release: <a href="http://blogs.atlassian.com/2013/03/highlights-new-git-1-8-2/" target="_blank">blogs.atlassian.com/2013/03/highlights-new-git-1-8-2//</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WikiHouse - Open Source Architecture]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/05/24/wikihouse-open-source-architecture/"/>
+    <updated>2013-05-24T12:47:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/05/24/wikihouse-open-source-architecture</id>
+    <content type="html"><![CDATA[<p>WikiHouse is Architecture patterned after the principles of open source software: <a href="http://www.wikihouse.cc/" target="_blank">wikihouse.cc/</a></p>
+
+<p>For the <a href="http://www.ted.com/talks/alastair_parvin_architecture_for_the_people_by_the_people.html" target="_blank">TED talk</a>.</p>
+]]></content>
+  </entry>
   
 </feed>

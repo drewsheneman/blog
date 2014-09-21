@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rails | Drew Sheneman - Software Developer]]></title>
+  <link href="http://blog.drewsheneman.com/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://blog.drewsheneman.com/"/>
+  <updated>2014-09-21T15:58:51-04:00</updated>
+  <id>http://blog.drewsheneman.com/</id>
+  <author>
+    <name><![CDATA[Drew Sheneman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rails Tutorial - Rails 4 style]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/01/rails-tutorial-rails-4-style/"/>
+    <updated>2013-06-01T11:46:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/01/rails-tutorial-rails-4-style</id>
+    <content type="html"><![CDATA[<p>For initially learning Ruby on Rails many prefer <a href="http://ruby.railstutorial.org" target="_blank">Rails Tutorial</a>, by Michael Hartl, which is available in full from his website, with great accompanying videos for purchase as well.</p>
+
+<p>As an update, if you are interested in diving head first into Rails 4, I noticed there is now a <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=4.0" target="_blank">Rails 4 Edition</a>. It also includes great updates to other techniques, such as in rspec replacing <a href="http://myronmars.to/n/dev-blog/2012/06/rspecs-new-expectation-syntax" target="_blank">&lsquo;should&rsquo; with &lsquo;expect&rsquo;</a>, etc.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Journey Upgrading to Rails 4]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/05/31/my-journey-upgrading-to-rails-4/"/>
+    <updated>2013-05-31T16:14:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/05/31/my-journey-upgrading-to-rails-4</id>
+    <content type="html"><![CDATA[<p>Upgrading to Rails 4 in an existing application can be quite a switch. I decided to make the jump and handle any complications as they come. After about an hour or so I was mostly up and running, with a few issues here and there with gems I am using and their various versions.</p>
+
+<h2>Resources</h2>
+
+<p>As is often the case, the <a href="http://railscasts.com/episodes/415-upgrading-to-rails-4" target="_blank">Railscast</a> on the subject proved invaluable. There is also a robust compilation of Rails 4 links being maintained <a href="http://blog.wyeworks.com/2012/11/13/rails-4-compilation-links/" target="_blank">here</a>.</p>
+
+<h2>RubyMine</h2>
+
+<p>If you use RubyMine, you may run across an error when trying to start your development server.</p>
+
+<pre><code>Error running Development: Rails 3.x launcher script was found instead of Rails 4.x one.
+</code></pre>
+
+<p>When a new Rails 4 application is created, it generates a &lsquo;bin&rsquo; folder. Creating a new, blank Rails 4 application and copying its &lsquo;bin&rsquo; folder into the existing project will resolve the error and allow the server to be started in RubyMine.</p>
+
+<h2>Gems</h2>
+
+<p>One gem that gave me a few errors was simple form. I updated my Gemfile to:</p>
+
+<pre><code>gem 'simple_form', '~&gt; 3.0.0.rc'
+</code></pre>
+
+<p>However, when loading my forms in the browser, I received another error:</p>
+
+<pre><code>wrong number of arguments (3 for 2)
+</code></pre>
+
+<p>After doing some digging I found that this was actually related to the client_side_validations gem, which I was no longer using and safely removed this from the project. If you need this gem, there is a <a href="https://github.com/bcardarella/client_side_validations/tree/rails-4.0-quick-fixes" target="_blank">branch</a> for Rails 4 which should help.</p>
+
+<p>Looking forward to implementing the great additions in Rails 4.</p>
+]]></content>
+  </entry>
+  
+</feed>

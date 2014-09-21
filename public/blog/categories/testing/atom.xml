@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: testing | Drew Sheneman - Software Developer]]></title>
+  <link href="http://blog.drewsheneman.com/blog/categories/testing/atom.xml" rel="self"/>
+  <link href="http://blog.drewsheneman.com/"/>
+  <updated>2014-09-21T15:58:51-04:00</updated>
+  <id>http://blog.drewsheneman.com/</id>
+  <author>
+    <name><![CDATA[Drew Sheneman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tests for servers]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2013/06/26/tests-for-servers/"/>
+    <updated>2013-06-26T11:17:00-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2013/06/26/tests-for-servers</id>
+    <content type="html"><![CDATA[<p>Rspec tests for server configurations:</p>
+
+<p><a href="http://serverspec.org/" target="_blank">serverspec.org/</a></p>
+]]></content>
+  </entry>
+  
+</feed>
