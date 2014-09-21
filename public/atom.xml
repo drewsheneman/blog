@@ -4,7 +4,7 @@
   <title><![CDATA[Drew Sheneman - Software Developer]]></title>
   <link href="http://blog.drewsheneman.com/atom.xml" rel="self"/>
   <link href="http://blog.drewsheneman.com/"/>
-  <updated>2014-09-21T16:13:02-04:00</updated>
+  <updated>2014-09-21T16:24:24-04:00</updated>
   <id>http://blog.drewsheneman.com/</id>
   <author>
     <name><![CDATA[Drew Sheneman]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Build Warning: Layout 'nil' requested in ...]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2014/09/21/build-warning-layout-nil-requested-in-dot-dot-dot/"/>
+    <updated>2014-09-21T16:22:07-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2014/09/21/build-warning-layout-nil-requested-in-dot-dot-dot</id>
+    <content type="html"><![CDATA[<p>I have just finished updating my blog to the latest version of Octopress and Octoflat theme. More updates to the site should be forthcoming soon. The only minor warning I received is when running &lsquo;rake generate&rsquo;:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Build Warning: Layout 'nil' requested in blog/categories/open-source/atom.xml does not exist.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This can occur a number of times based on the amount of posts in the blog. After a quick lookup it can also occur in Jekyll as well. Turns out the fix was as simple as changing &lsquo;layout: nil&rsquo; to &lsquo;layout: null&rsquo;, which is the correct way to specify a non-existent layout. I had to modify the following files to get all of the warnings to resolve:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>source/_includes/custom/category_feed.xml
+</span><span class='line'>source/atom.xml
+</span><span class='line'>source/robots.txt</span></code></pre></td></tr></table></div></figure>
+
+
+<p>All looks good after this, and happy to be continuing on with Octopress.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Number One Trait of a Great Developer]]></title>
@@ -260,17 +285,6 @@ I don&rsquo;t think I am quite leaping off that ledge &hellip; yet.</p>
     <updated>2013-05-28T08:01:00-04:00</updated>
     <id>http://blog.drewsheneman.com/blog/2013/05/28/git-1-8-2-release</id>
     <content type="html"><![CDATA[<p>Here is a good read on the new features in the latest git release: <a href="http://blogs.atlassian.com/2013/03/highlights-new-git-1-8-2/" target="_blank">blogs.atlassian.com/2013/03/highlights-new-git-1-8-2//</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WikiHouse - Open Source Architecture]]></title>
-    <link href="http://blog.drewsheneman.com/blog/2013/05/24/wikihouse-open-source-architecture/"/>
-    <updated>2013-05-24T12:47:00-04:00</updated>
-    <id>http://blog.drewsheneman.com/blog/2013/05/24/wikihouse-open-source-architecture</id>
-    <content type="html"><![CDATA[<p>WikiHouse is Architecture patterned after the principles of open source software: <a href="http://www.wikihouse.cc/" target="_blank">wikihouse.cc/</a></p>
-
-<p>For the <a href="http://www.ted.com/talks/alastair_parvin_architecture_for_the_people_by_the_people.html" target="_blank">TED talk</a>.</p>
 ]]></content>
   </entry>
   

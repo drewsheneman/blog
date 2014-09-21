@@ -130,6 +130,70 @@
   
 
 
+<i class="icon-calendar-empty"></i> <time datetime="2014-09-21T16:22:07-04:00" pubdate data-updated="true"></time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/blogging/"><span class="badge">blogging</span></a>
+          
+          <a href="/blog/categories/octopress/"><span class="badge">octopress</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/09/21/build-warning-layout-nil-requested-in-dot-dot-dot/">Build Warning: Layout &#8216;nil&#8217; requested in &#8230;</a></h1>
+      <p>I have just finished updating my blog to the latest version of Octopress and Octoflat theme. More updates to the site should be forthcoming soon. The only minor warning I received is when running &lsquo;rake generate&rsquo;:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Build Warning: Layout 'nil' requested in blog/categories/open-source/atom.xml does not exist.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This can occur a number of times based on the amount of posts in the blog. After a quick lookup it can also occur in Jekyll as well. Turns out the fix was as simple as changing &lsquo;layout: nil&rsquo; to &lsquo;layout: null&rsquo;, which is the correct way to specify a non-existent layout. I had to modify the following files to get all of the warnings to resolve:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>source/_includes/custom/category_feed.xml
+</span><span class='line'>source/atom.xml
+</span><span class='line'>source/robots.txt</span></code></pre></td></tr></table></div></figure>
+
+
+<p>All looks good after this, and happy to be continuing on with Octopress.</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
+
+
+
+
+
+
+
+
+  
+
+
 <i class="icon-calendar-empty"></i> <time datetime="2013-09-04T09:12:00-04:00" pubdate data-updated="true"></time></h5>
           <div class="row-fluid">
           
@@ -539,54 +603,6 @@
       <p>David Heinemeier Hansson describes the process of configuring additional environments in Rails:</p>
 
 <p><a href="http://37signals.com/svn/posts/3535-beyond-the-default-rails-environments" target="_blank">37signals.com/svn/posts/3535-beyond-the-default-rails-environments</a></p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span2 post-meta">
-	  <h5 class="date-time">
-
-
-
-
-
-
-
-
-  
-
-
-<i class="icon-calendar-empty"></i> <time datetime="2013-06-12T07:44:00-04:00" pubdate data-updated="true"></time></h5>
-          <div class="row-fluid">
-          
-          </div>
-          
-          <div class="row-fluid">
-          
-          <a href="/blog/categories/agile/"><span class="badge">agile</span></a>
-          
-          <a href="/blog/categories/development/"><span class="badge">development</span></a>
-          
-          </div>
-          
-    </div>
-    <div class="span10 post-container">
-      <h1 class="link"><a href="/blog/2013/06/12/downsides-of-pair-programming/">Downsides of Pair Programming</a></h1>
-      <p>An interesting perspective on an <a href="http://www.bennorthrop.com/Essays/2013/pair-programming-my-personal-nightmare.php" target="_blank">alternative view to pair programming</a>, and scenarios where it may or may not be the best option.</p>
 
       
       

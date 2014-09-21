@@ -5,13 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Number One Trait of a Great Developer - Drew Sheneman - Software Developer</title>
+  <title>Build Warning: Layout &#8216;nil&#8217; requested in &#8230; - Drew Sheneman - Software Developer</title>
   <meta name="author" content="Drew Sheneman">
 
    
-  <meta name="description" content="Number One Trait of a Great Developer">
+  <meta name="description" content="Build Warning: Layout 'nil' requested in ...">
   
-  <meta name="keywords" content="development, rail, ruby, blog, ruby on rails">
+  <meta name="keywords" content="blogging,octopress,layout,nil">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.drewsheneman.com/blog/2013/09/04/number-one-trait-of-a-great-developer">
+  <link rel="canonical" href="http://blog.drewsheneman.com/blog/2014/09/21/build-warning-layout-nil-requested-in-dot-dot-dot">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -101,7 +101,7 @@
 
   <header>
   <div class="jumbotron">
-    Number One Trait of a Great Developer
+    Build Warning: Layout &#8216;Nil&#8217; Requested in &#8230;
 	<h5>
 
 
@@ -114,12 +114,28 @@
   
 
 
-<i class="icon-calendar-empty"></i> <time datetime="2013-09-04T09:12:00-04:00" pubdate data-updated="true"></time></h5>
+<i class="icon-calendar-empty"></i> <time datetime="2014-09-21T16:22:07-04:00" pubdate data-updated="true"></time></h5>
   </div>
 </header>
   <div class="row-fluid">
     <div class="span12">
-      <p>Great post by Tammer Saleh on the Number One Trait of a Great Developer: <a href="http://tammersaleh.com/posts/the-number-one-trait-of-a-great-developer/" target="_blank">tammersaleh.com/posts/the-number-one-trait-of-a-great-developer/</a></p>
+      <p>I have just finished updating my blog to the latest version of Octopress and Octoflat theme. More updates to the site should be forthcoming soon. The only minor warning I received is when running &lsquo;rake generate&rsquo;:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Build Warning: Layout 'nil' requested in blog/categories/open-source/atom.xml does not exist.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This can occur a number of times based on the amount of posts in the blog. After a quick lookup it can also occur in Jekyll as well. Turns out the fix was as simple as changing &lsquo;layout: nil&rsquo; to &lsquo;layout: null&rsquo;, which is the correct way to specify a non-existent layout. I had to modify the following files to get all of the warnings to resolve:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>source/_includes/custom/category_feed.xml
+</span><span class='line'>source/atom.xml
+</span><span class='line'>source/robots.txt</span></code></pre></td></tr></table></div></figure>
+
+
+<p>All looks good after this, and happy to be continuing on with Octopress.</p>
 
     </div>
   </div>
@@ -138,9 +154,9 @@
 
 
 
-  <a href="/blog/categories/development/"><span class="badge">development</span></a>
+  <a href="/blog/categories/blogging/"><span class="badge">blogging</span></a>
 
-  <a href="/blog/categories/ruby-on-rails/"><span class="badge">ruby-on-rails</span></a>
+  <a href="/blog/categories/octopress/"><span class="badge">octopress</span></a>
 
 
 
@@ -170,10 +186,8 @@
       <div class="span12">
         <p class="meta">
           
-            <a class="basic-alignment left" href="/blog/2013/08/26/rails-hotline/" title="Previous Post: Rails Hotline">&laquo; Rails Hotline</a>
+            <a class="basic-alignment left" href="/blog/2013/09/04/number-one-trait-of-a-great-developer/" title="Previous Post: Number One Trait of a Great Developer">&laquo; Number One Trait of a Great Developer</a>
           
-          
-            <a class="basic-alignment right" href="/blog/2014/09/21/build-warning-layout-nil-requested-in-dot-dot-dot/" title="Next Post: Build Warning: Layout 'nil' requested in ...">Build Warning: Layout &#8216;nil&#8217; requested in &#8230; &raquo;</a>
           
         </p>
       </div>
@@ -211,8 +225,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://blog.drewsheneman.com/blog/2013/09/04/number-one-trait-of-a-great-developer/';
-        var disqus_url = 'http://blog.drewsheneman.com/blog/2013/09/04/number-one-trait-of-a-great-developer/';
+        var disqus_identifier = 'http://blog.drewsheneman.com/blog/2014/09/21/build-warning-layout-nil-requested-in-dot-dot-dot/';
+        var disqus_url = 'http://blog.drewsheneman.com/blog/2014/09/21/build-warning-layout-nil-requested-in-dot-dot-dot/';
         var disqus_script = 'embed.js';
       
     (function () {

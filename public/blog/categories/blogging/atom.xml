@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blogging | Drew Sheneman - Software Developer]]></title>
+  <link href="http://blog.drewsheneman.com/blog/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://blog.drewsheneman.com/"/>
+  <updated>2014-09-21T16:24:24-04:00</updated>
+  <id>http://blog.drewsheneman.com/</id>
+  <author>
+    <name><![CDATA[Drew Sheneman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Build Warning: Layout 'nil' requested in ...]]></title>
+    <link href="http://blog.drewsheneman.com/blog/2014/09/21/build-warning-layout-nil-requested-in-dot-dot-dot/"/>
+    <updated>2014-09-21T16:22:07-04:00</updated>
+    <id>http://blog.drewsheneman.com/blog/2014/09/21/build-warning-layout-nil-requested-in-dot-dot-dot</id>
+    <content type="html"><![CDATA[<p>I have just finished updating my blog to the latest version of Octopress and Octoflat theme. More updates to the site should be forthcoming soon. The only minor warning I received is when running &lsquo;rake generate&rsquo;:</p>
+
+<pre><code>Build Warning: Layout 'nil' requested in blog/categories/open-source/atom.xml does not exist.
+</code></pre>
+
+<p>This can occur a number of times based on the amount of posts in the blog. After a quick lookup it can also occur in Jekyll as well. Turns out the fix was as simple as changing &lsquo;layout: nil&rsquo; to &lsquo;layout: null&rsquo;, which is the correct way to specify a non-existent layout. I had to modify the following files to get all of the warnings to resolve:</p>
+
+<pre><code>source/_includes/custom/category_feed.xml
+source/atom.xml
+source/robots.txt
+</code></pre>
+
+<p>All looks good after this, and happy to be continuing on with Octopress.</p>
+]]></content>
+  </entry>
+  
+</feed>
